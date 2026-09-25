@@ -492,7 +492,7 @@ export const Hackathon2026: React.FC = () => {
 
                 <div className="space-y-1">
                   <div className="text-4xl sm:text-5xl font-black text-cyan-400 font-mono">
-                    ₹{settings?.early_bird_price ?? 299}
+                    ₹299
                     <span className="text-xs text-slate-400 font-normal"> / Team</span>
                   </div>
                   <p className="text-xs text-slate-400">Complete team access (2-4 members)</p>
@@ -541,7 +541,7 @@ export const Hackathon2026: React.FC = () => {
               <div className="pt-6">
                 <Button
                   onClick={() =>
-                    handleOpenRegistration('Early Bird', settings?.early_bird_price ?? 299)
+                    handleOpenRegistration('Early Bird', 299)
                   }
                   className="w-full cyber-button-glow text-slate-950 font-black py-6 rounded-xl text-sm"
                 >
@@ -563,7 +563,7 @@ export const Hackathon2026: React.FC = () => {
 
                 <div className="space-y-1">
                   <div className="text-4xl sm:text-5xl font-black text-white font-mono">
-                    ₹{settings?.regular_price ?? 399}
+                    ₹399
                     <span className="text-xs text-slate-400 font-normal"> / Team</span>
                   </div>
                   <p className="text-xs text-slate-400">Standard team entry</p>
@@ -599,7 +599,7 @@ export const Hackathon2026: React.FC = () => {
                 <Button
                   variant="outline"
                   onClick={() =>
-                    handleOpenRegistration('Regular', settings?.regular_price ?? 399)
+                    handleOpenRegistration('Regular', 399)
                   }
                   className="w-full border-slate-700 hover:border-cyan-400 text-white font-bold py-6 rounded-xl text-sm"
                 >
